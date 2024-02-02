@@ -3,7 +3,7 @@
 // https://docs.netlify.com/functions/build-with-javascript
 
 const nearbyCities = require('nearby-cities')
-const maxResults = 100
+const maxResults = 20
 const headers = {
   'Access-Control-Allow-Origin': '*'
 }
